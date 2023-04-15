@@ -20,6 +20,7 @@ app.use((req, res, next) => {
 });
 
 app.use('/api/workouts', require('./routes/workouts'));
+app.use('/api/user', require('./routes/userRoute'));
 
 // app.use(errorHandler);
 
